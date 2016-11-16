@@ -1,2 +1,5 @@
-# linkedin-pulse-metrics-hack
-A workround to extract metrics of Linkedin Pulse articles
+# Linkedin Pulse Metrics Hack
+
+> A workaround to extract metrics of Linkedin Pulse articles
+
+---
