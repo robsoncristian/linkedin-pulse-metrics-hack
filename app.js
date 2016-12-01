@@ -8,7 +8,7 @@ $('div.article-details').each(function(){
   var views  = article.find(".social-view-count a span.count-container").text();
   var likes  = article.find(".social-gestures-likes a span.count-container").text();
   var shares  = article.find(".social-gestures-comments a span.count-container").text();
-  console.log((parseInt(title) || 0)+";"+(parseInt(views) || 0)+";"+(parseInt(likes) || 0)+";"+(parseInt(shares) || 0));
+  console.log(title+";"+(parseInt(views) || 0)+";"+(parseInt(likes) || 0)+";"+(parseInt(shares) || 0));
 });
 
 // Versão para a Planilha do Google Drive
@@ -21,5 +21,5 @@ $('div.article-details').each(function(){
   var views  = article.find(".social-view-count a span.count-container").text();
   var likes  = article.find(".social-gestures-likes a span.count-container").text();
   var shares  = article.find(".social-gestures-comments a span.count-container").text();
-  console.log((parseInt(title) || 0)+","+(parseInt(views) || 0)+","+(parseInt(likes) || 0)+","+(parseInt(shares) || 0));
+  console.log(title+","+(parseInt(views) || 0)+","+(parseInt(likes) || 0)+","+(parseInt(shares) || 0));
 });
