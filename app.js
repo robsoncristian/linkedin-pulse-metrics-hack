@@ -1,7 +1,7 @@
 // Versão para Microsoft Excel
 
 console.clear();
-console.log("titulo;views;likes;shares;data");
+console.log("titulo;visualizacoes;likes;comentarios;data");
 $('div.article-details').each(function(){
   var article = $(this);
   var title  = article.find(".article-title").text();
@@ -15,7 +15,7 @@ $('div.article-details').each(function(){
 // Versão para a Planilha do Google Drive
 
 console.clear();
-console.log("titulo,views,likes,shares,data");
+console.log("titulo;visualizacoes;likes;comentarios;data");
 $('div.article-details').each(function(){
   var article = $(this);
   var title  = article.find(".article-title").text();
